@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/layout_bar"/>
+    <RelativeLayout
+        android:id="@+id/rl_app_manager"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_marginTop="16dip"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="App"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_running_app"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_marginTop="16dip"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Running App"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_device_info"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:layout_marginTop="16dip"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Device Info"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="radioStyleForSale">
+        <item name="android:button">@null</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:textColor">@drawable/check_main_txtcolor</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+</resources>
